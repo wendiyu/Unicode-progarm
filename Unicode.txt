@@ -1,0 +1,14 @@
+#
+#Created by: Wendi Yu
+#Created on: Nov-07-2018
+#
+#This progarm is to show the alphabet Uppercase and thealphabet lowercase
+
+
+for outCounter in range(65,90):
+  for inCounter in range(97,122):
+    letter = chr(outCounter)
+    lowLetter = chr(inCounter)
+    print(str(letter) + "=>" + str(lowLetter))
+
+input ()
